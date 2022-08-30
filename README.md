@@ -1,3 +1,3 @@
 # Sound Machine
 
-![The Fart Machine](PreviewPic.png)
+![The Fart Machine](imgs/PreviewPic.png)
