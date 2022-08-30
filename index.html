@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>The Fart</header>
+  
+
+    <!--Upper Line of Keys-->
+  <div class="upper">
+    <div class="keys">
+        <div data-key="81" class="key">
+         <kbd>Q</kbd>
+            <span class="sound">airy</span>
+        </div>
+        <div data-key="87" class="key">
+            <kbd>W</kbd>
+            <span class="sound">cartoon</span>
+        </div>
+        <div data-key="69" class="key">
+            <kbd>E</kbd>
+            <span class="sound">classic</span>
+        </div>
+        <div data-key="82" class="key">
+            <kbd>R</kbd>
+            <span class="sound">clenched</span>
+        </div>
+        <div data-key="84" class="key">
+            <kbd>T</kbd>
+            <span class="sound">deep</span>
+        </div>
+        <div data-key="89" class="key">
+            <kbd>Y</kbd>
+            <span class="sound">double</span>
+        </div>
+        <div data-key="85" class="key">
+            <kbd>U</kbd>
+            <span class="sound">everyday</span>
+        </div>
+        <div data-key="73" class="key">
+            <kbd>I</kbd>
+            <span class="sound">failed</span>
+        </div>
+        <div data-key="79" class="key">
+            <kbd>O</kbd>
+            <span class="sound">Looong</span>
+        </div>
+        <div data-key="80" class="key">
+            <kbd>P</kbd>
+            <span class="sound">Toot</span>
+        </div>
+    </div>
+  </div>
+
+  <!--Middle Line of Keys-->
+  <div class="middle">
+    <div class="keys">
+        <div data-key="65" class="key">
+         <kbd>A</kbd>
+            <span class="sound">Toots</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">forced</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">High</span>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">Double High</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">plob</span>
+        </div>
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">quick</span>
+        </div>
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">Quicker</span>
+        </div>
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">rapid</span>
+        </div>
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">Room Clearer</span>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="lower">
+  <!--Lower Line of Keys-->
+    <div class="keys">
+        <div data-key="90" class="key">
+         <kbd>Z</kbd>
+            <span class="sound">shart</span>
+        </div>
+        <div data-key="88" class="key">
+            <kbd>X</kbd>
+            <span class="sound">short</span>
+        </div>
+        <div data-key="67" class="key">
+            <kbd>C</kbd>
+            <span class="sound">stop & go</span>
+        </div>
+        <div data-key="86" class="key">
+            <kbd>V</kbd>
+            <span class="sound">super long</span>
+        </div>
+        <div data-key="66" class="key">
+            <kbd>B</kbd>
+            <span class="sound">tootz</span>
+        </div>
+        <div data-key="78" class="key">
+            <kbd>N</kbd>
+            <span class="sound">wet</span>
+        </div>
+        <div data-key="77" class="key">
+            <kbd>M</kbd>
+            <span class="sound">whoopie</span>
+        </div>
+    </div>
+  </div>
+
+  <!--upper audio files-->
+  <audio data-key="81" src="sounds/airy_zapsplat_cartoon_fart_016_21608.mp3"></audio>
+  <audio data-key="87" src="sounds/cartoonzapsplat_cartoon_fart_019_21611.mp3"></audio>
+  <audio data-key="69" src="sounds/classic_zapsplat_cartoon_fart_002_21594.mp3"></audio>
+  <audio data-key="82" src="sounds/clenched_zapsplat_cartoon_fart_033_21625.mp3"></audio>
+  <audio data-key="84" src="sounds/deep_zapsplat_cartoon_fart_037_21629.mp3"></audio>
+  <audio data-key="89" src="sounds/double_zapsplat_cartoon_fart_029_21621.mp3"></audio>
+  <audio data-key="85" src="sounds/everyday_zapsplat_cartoon_fart_009_21601.mp3"></audio>
+  <audio data-key="73" src="sounds/failed_zapsplat_cartoon_fart_035_21627.mp3"></audio>
+  <audio data-key="79" src="sounds/Fart Long through Door.mp3"></audio>
+  <audio data-key="80" src="sounds/Fart Toot (1).mp3"></audio>
+
+<!--middle audio files-->
+  <audio data-key="65" src="sounds/Fart Toot.mp3"></audio>
+  <audio data-key="83" src="sounds/forced_zapsplat_cartoon_fart_013_21605.mp3"></audio>
+  <audio data-key="68" src="sounds/high pitch_zapsplat_cartoon_fart_004_21596.mp3"></audio>
+  <audio data-key="70" src="sounds/HighNote_zapsplat_cartoon_fart_011_21603.mp3"></audio>
+  <audio data-key="71" src="sounds/plob_zapsplat_cartoon_fart_024_21616.mp3"></audio>
+  <audio data-key="72" src="sounds/quick_zapsplat_cartoon_fart_022_21614.mp3"></audio>
+  <audio data-key="74" src="sounds/Quickie_zapsplat_cartoon_fart_012_21604.mp3"></audio>
+  <audio data-key="75" src="sounds/rapid_zapsplat_cartoon_fart_026_21618.mp3"></audio>
+  <audio data-key="76" src="sounds/roomClearer_zapsplat_cartoon_fart_038_21630.mp3"></audio>
+
+  <!--lower audio files-->
+  <audio data-key="90" src="sounds/shart_zapsplat_cartoon_fart_025_21617.mp3"></audio>
+  <audio data-key="88" src="sounds/short_zapsplat_cartoon_fart_005_21597.mp3"></audio>
+  <audio data-key="67" src="sounds/stopandgo_zapsplat_cartoon_fart_040_21632.mp3"></audio>
+  <audio data-key="86" src="sounds/superlong_zapsplat_cartoon_fart.mp3"></audio>
+  <audio data-key="66" src="sounds/toot_zapsplat_cartoon_fart_017_21609.mp3"></audio>
+  <audio data-key="78" src="sounds/wet_zapsplat_cartoon_fart_018_21610.mp3"></audio>
+  <audio data-key="77" src="sounds/whoopie_zapsplat_cartoon_fart_032_21624.mp3"></audio>
+
+<footer>
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br><br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+  <p>The Fart!</p>
+  <p>Created as a self study exercise after working on the drum machine from <a href="https://javascript30.com/" _blank="">30 Days of JavaScript</a></p>
+  <p>Sound effects obtained from https://www.zapsplat.com & <a href="https://www.freepik.com/free-vector/toxic-smoke-realistic-background_21078166.htm#page=2&query=fart&position=13&from_view=search">Image by macrovector</a> on Freepik</p>
+</footer>
+<script>
+
+
+function playSound(e){
+  const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`); //selects the key to be played
+  const key= document.querySelector(`div[data-key="${e.keyCode}"]`); //selects the div to be changed visually
+  if (!audio) return; //stops the function from running
+  
+  audio.currentTime = 0; // rewinds to start so key can be played rapidly
+  audio.play(); // plays noise
+  key.classList.add('playing'); //changes visual rules on played key 
+}
+
+
+//This is to change the visual rules back to normal after key is played
+function removeTransition(e){
+  if(e.propertyName !== 'transform') return; //looks for only the transform event. there are like 6 diffferent events happening if we just looked for themn all
+  this.classList.remove('playing');
+}
+
+const keys = document.querySelectorAll('.key');
+keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+window.addEventListener('keydown', playSound)
+</script>
+
+
+</body>
+</html>
